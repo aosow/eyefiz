@@ -24,16 +24,6 @@ Générez une clé d’encryption
 php artisan key:generate
 ```
 
-Mettre les bonnes permissions à l’ensemble des répertoires et fichiers
-
-```
-chmod 755 -R eyefiz/
-```
-
-```
-chmod -R o+w eyefiz/storage
-```
-
 Configurez le fichier .env pour permettre la création et la connexion à la base de donnée:
 remplissez les options DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME et DB_PASSWORD
 
