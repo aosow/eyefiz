@@ -52,7 +52,15 @@ php artisan migrate
 Remplir la base de données avec les données de test contenu dans les fichiers seed
 
 ```
-php artisan db:seed
+php artisan db:seed --class=CategorySeeder
+```
+
+```
+php artisan db:seed --class=ProductSeeder
+```
+
+```
+php artisan db:seed --class=PostSeeder
 ```
 
 Puis lancer le server 
